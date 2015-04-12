@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F2B3AF4-F944-4F3A-8538-9268DD4A8A54</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOS-Waiting-View</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5FF660A6D055E13C4A51D9DBF5443BDB2E245903</key>
+		<string>https://github.com/alchimya/iOS-Waiting-View.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS-Waiting-View/iOS-Waiting-View.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5FF660A6D055E13C4A51D9DBF5443BDB2E245903</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alchimya/iOS-Waiting-View.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5FF660A6D055E13C4A51D9DBF5443BDB2E245903</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5FF660A6D055E13C4A51D9DBF5443BDB2E245903</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Waiting-View</string>
+		</dict>
+	</array>
+</dict>
+</plist>

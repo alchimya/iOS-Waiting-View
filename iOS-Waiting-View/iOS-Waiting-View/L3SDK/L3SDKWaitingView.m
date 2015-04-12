@@ -84,31 +84,29 @@ UILabel*progressLabel;
     progressLabel.textAlignment = NSTextAlignmentCenter;
     [waitingView addSubview:progressLabel];
     
-    
-    
-    
-    
+    //add waiting view
     [self addSubview:waitingView];
-    
     
 }
 
 -(void)updateWaitingValue:(NSString*)value{
+    //update text of progress label indicator
     [NSThread detachNewThreadSelector: @selector(setText:) toTarget:progressLabel withObject:value];
 }
 
-
 -(void)hideWaiting{
+    //remove waiting view
     [waitingView removeFromSuperview];
 }
 
-
 -(void)setWaitingViewFrame:(CGRect)frame{
+    //waitingViewFrame setter
+    //allows to create a waiting view with a custom frame
     waitingViewFrame=frame;
 }
 
 -(CGRect)waitingViewFrame{
-    
+    //waitingViewFrame getter
     return waitingViewFrame;
 }
 
