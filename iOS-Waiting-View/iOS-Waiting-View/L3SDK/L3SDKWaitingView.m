@@ -26,7 +26,7 @@ UILabel*progressLabel;
     }
     
     
-    //create waiting view with frame
+    //creates waiting view with frame
     if (CGRectIsEmpty(waitingViewFrame)) {
         waitingView=[[UIView alloc] initWithFrame:CGRectMake(0,
                                                              0,
@@ -47,7 +47,6 @@ UILabel*progressLabel;
     waitingView.layer.cornerRadius = 10.0;
     
     //creates an activity indicator and add it on waiting view
-    
     UIActivityIndicatorView*_activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
     _activityIndicatorView.frame = CGRectMake(
                                               (WAITING_VIEW_WIDTH/2-ACTIVITY_INDICATOR_VIEW_SIDE/2),
